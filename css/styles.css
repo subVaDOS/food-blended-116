@@ -7,6 +7,12 @@ body {
   margin: 0;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -15,6 +21,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: currentColor;
 }
 
 h1,
@@ -25,4 +32,61 @@ h5,
 h6,
 p {
   margin: 0;
+}
+
+/* heder style css */
+.page-heder {
+}
+.container {
+  max-width: 1248px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-right: 30px;
+}
+.header-logo {
+  margin-right: 735px;
+  padding: 10px 0;
+}
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.heder-nav-item {
+  display: flex;
+  align-items: center;
+}
+.header-nav-link {
+  font-size: 14px;
+  padding: 28px 0;
+  display: block;
+}
+
+.header-nav-link:hover {
+  color: aqua;
+}
+.header-nav-link:focus {
+  color: #2c2c2c;
+}
+
+.btn-mein {
+  min-width: 98px;
+  padding: 6px 18px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  background-color: #bbf330;
+}
+
+.btn-header {
 }
